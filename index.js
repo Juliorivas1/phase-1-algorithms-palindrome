@@ -1,9 +1,11 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  return word ===
+  word.split('').reverse().join('');
 }
 
 /* 
-  Add your pseudocode here
+  I need to take the word and create another word by reversing the original.
+  Then I need to check if the original and duplicate words are the same
 */
 
 /*
